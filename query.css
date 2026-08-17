@@ -1,0 +1,115 @@
+@media (min-width: 400px) {
+  .about-p {
+    font-size: 1.3rem;
+  }
+  .project-item {
+    width: 70%;
+  }
+}
+@media (min-width: 600px) {
+  .head {
+    font-size: 2rem;
+  }
+  .nav-link {
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+  .hero {
+    font-size: 1.6rem;
+  }
+  .intro {
+    font-size: 1.6rem;
+  }
+  .about-primary,
+  .skill-primary {
+    font-size: 3rem;
+  }
+  .about-p {
+    font-size: 1.8rem;
+  }
+  .skill-icon {
+    font-size: 6rem;
+  }
+  .services-con {
+    gap: 2rem;
+  }
+  .service-head,
+  .skill-name {
+    font-weight: 900;
+    font-size: 1.7rem;
+  }
+
+  .service-item {
+    font-size: 1.5rem;
+    width: 40%;
+  }
+  .project-name {
+    font-size: 1.8rem;
+  }
+  .form {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 800px) {
+  .nav {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5rem;
+  }
+  .nav-link {
+    font-size: 1.9rem;
+  }
+  .head {
+    font-size: 3rem;
+  }
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6rem;
+
+    font-size: 2rem;
+  }
+
+  .hero-img {
+    width: auto;
+    max-width: 30%;
+    height: auto;
+    flex-shrink: 0;
+    align-items: center;
+  }
+  .intro {
+    font-size: 2rem;
+  }
+  .about {
+    font-size: 2rem;
+  }
+  .about-primary,
+  .skill-primary {
+    font-size: 5rem;
+  }
+  .service-head,
+  .skill-name {
+    font-weight: 900;
+    font-size: 2.5rem;
+  }
+  .about-p {
+    font-size: 2.5rem;
+  }
+  .project-con {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-self: center;
+  }
+  .project-item {
+    width: fit-content;
+  }
+  .project-name {
+    font-size: 4rem;
+  }
+  .copy-right {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1000) {
+}
