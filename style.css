@@ -44,6 +44,10 @@ a {
   color: #b3b1b1;
   text-decoration: none;
 }
+/* .hidden {
+  display: none;
+  pointer-events: none;
+} */
 
 .header {
   /* position: static; */
@@ -53,17 +57,21 @@ a {
   height: auto;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: inherit;
-  gap: 0.5rem;
+  gap: 1.5rem;
   font-size: 1.2rem;
   /* margin-top: 0; */
-  padding: 2rem 4rem;
+  padding: 2rem 4rem 0 1rem;
   z-index: 999999;
 }
 .header.sticky {
   position: fixed;
+  top: 0;
   width: 100%;
   margin-top: 0;
+  padding: 1rem 2rem;
+  gap: 1rem;
 }
 .head {
   color: rgb(29, 170, 195);
@@ -73,12 +81,16 @@ a {
 .nav {
   display: flex;
   justify-content: space-evenly;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 .nav-link {
   text-decoration: none;
   color: inherit;
   font-size: 1.2rem;
+  transition: all 0.2s;
+}
+.nav-link:hover {
+  color: rgb(29, 170, 195);
 }
 
 .section {

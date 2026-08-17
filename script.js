@@ -9,6 +9,7 @@ const stickyHead = function (entries) {
 
   if (!entry.isIntersecting) {
     header.classList.add("sticky");
+    // header.classList.add("stick");
   } else {
     header.classList.remove("sticky");
   }
